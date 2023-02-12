@@ -40,11 +40,8 @@ body {
 
 .point {
     fill: purple;
-    stroke: green;
 }
 
 .point:hover {
     fill: yellow !important;
-    stroke-width: 2;
-
 }
