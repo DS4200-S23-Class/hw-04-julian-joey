@@ -34,12 +34,17 @@ body {
 .axis {
     stroke:"black";
     stroke-width:4;
-    fill:"rgb(121,0,121)";
+    fill:"black";
 
 }
 
-
 .point {
-    stroke-width: 4;
-    
+    fill: purple;
+    stroke: green;
+}
+
+.point:hover {
+    fill: yellow !important;
+    stroke-width: 2;
+
 }
