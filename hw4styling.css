@@ -3,13 +3,20 @@ body {
 }
 
 
-
-
-.h1 {
-    text-align: center;
-    font-size: 15px;
+.userPoint {
+    visibility: hidden;
+    fill: purple;
 }
 
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
 
 /* Set additional styling options for the columns */
 .column {
@@ -33,9 +40,8 @@ body {
 
 .axis {
     stroke:"black";
-    stroke-width:4;
+    stroke-width: 6;
     fill:"black";
-
 }
 
 .point {
@@ -43,5 +49,9 @@ body {
 }
 
 .point:hover {
+    fill: yellow !important;
+}
+
+.userPoint:hover {
     fill: yellow !important;
 }

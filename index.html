@@ -14,26 +14,23 @@
     </div>
 
     <div class="row">
-        <div class="column left" style="background-color:#FFB695;">
-            <h2>Column 1</h2>
-            <p>Data..</p>
-
+        <div class="column left">
             <svg width="800" height="800">
-                <line class="axis" x1="20" y1="100" x2="20" y2="300" stroke="black" />
-                <line class="axis" x1="20" y1="300" x2="220" y2="300" stroke="black" />
-                <circle id = "p1" class="point" cx="40" cy="260" r="5" onclick="addBorder('p1')" />
-                <circle id = "p2" class="point" cx="60" cy="220" r="5" onclick="addBorder('p2')" />
-                <circle id = "p3" class="point" cx="140" cy="260" r="5" onclick="addBorder('p3')" />
-                <circle id = "p4" class="point" cx="200" cy="120" r="5" onclick="addBorder('p4')" />
+                <line class="axis" x1="150" y1="500" x2="550" y2="500" stroke="black" />
+                <line class="axis" x1="150" y1="100" x2="150" y2="500" stroke="black" />
+                <circle id = "p1" class="point" cx="190" cy="420" r="5" onclick="addBorder('p1')" />
+                <circle id = "p2" class="point" cx="230" cy="340" r="5" onclick="addBorder('p2')" />
+                <circle id = "p3" class="point" cx="390" cy="420" r="5" onclick="addBorder('p3')" />
+                <circle id = "p4" class="point" cx="510" cy="140" r="5" onclick="addBorder('p4')" />
+                <circle id = "p5" class="userPoint" cx = "50" cy = "150" r="5" onclick="addBorder('p5')" />
             </svg>
 
         </div>
-        <div class="column right" style="background-color:#74C3E1;">
-            <h2>Column 2</h2>
+        <div class="column right">
             <p>Last Point Clicked:</p>
             <p id="lastPoint">No Point Has Been Clicked</p>
             <p>Select the x coordinate of the point you want to add:</p>
-            <select name = "xDropdown" id = "xDropdown" value = "none">
+            <select name = "xDropdown" id = "xDropdown" value = "1">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -45,7 +42,7 @@
                 <option value="9">9</option>
              </select>
             <p>Select the y coordinate of the point you want to add:</p>
-            <select name = "yDropdown" id = "yDropdown" value = "none">
+            <select name = "yDropdown" id = "yDropdown" value = "1">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -61,7 +58,14 @@
         </div>
     </div>
 
-
+    <div>
+        <h2>Acknowledgements</h2>
+        <ul>
+            <li>https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/</li>
+            <li>https://stackoverflow.com/questions/6802956/how-to-position-a-div-in-a-specific-coordinates</li>
+            <li>https://www.geeksforgeeks.org/how-to-get-selected-value-in-dropdown-list-using-javascript/</li>
+        </ul>
+    </div>
 <script src="hw4main.js"></script>
 
 </body>
